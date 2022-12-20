@@ -13,10 +13,10 @@ function App() {
       <Routes>
         <Route  element={<Layout />}>
           <Route index element={<AllPeople />} />
-          <Route path="all" element={<AllPeople />} />
-          <Route path="findperson" element={<FindPerson />} />
-          <Route path="addperson" element={<Addperson />} />
-          <Route path="deletecontact" element={<Deletecontact />} />
+          <Route path="/phoneBookReact/all" element={<AllPeople />} />
+          <Route path="/phoneBookReact/findperson" element={<FindPerson />} />
+          <Route path="/phoneBookReact/addperson" element={<Addperson />} />
+          <Route path="/phoneBookReact/deletecontact" element={<Deletecontact />} />
           <Route path="*" element={<p>There's nothing here: 404!</p>} />
         </Route>
       </Routes>
