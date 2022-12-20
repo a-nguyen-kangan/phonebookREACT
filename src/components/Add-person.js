@@ -1,6 +1,4 @@
 import React from 'react';
-import { AllPeople, Person } from './All-people';
-
 
 class Addperson extends React.Component {
     

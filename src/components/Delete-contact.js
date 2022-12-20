@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { Person } from './All-people';
+import React from 'react';
 
 class Deletecontact extends React.Component {
     constructor(props) {

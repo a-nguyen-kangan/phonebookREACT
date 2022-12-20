@@ -38,7 +38,7 @@ class FindPerson extends React.Component {
    
     render() {
         const { foundresult, userInput } = this.state;
-        const matchvalue = foundresult.filter((foundresult) => foundresult.name.toLowerCase().includes(userInput));
+        //const matchvalue = foundresult.filter((foundresult) => foundresult.name.toLowerCase().includes(userInput));
  
         return (
             <div className="FindPerson">
